@@ -17,6 +17,8 @@
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
     "mongoose": "^5.10.15",
     "nodemon": "^2.0.6"
   }

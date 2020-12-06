@@ -1,5 +1,5 @@
-import { formatError } from "graphql";
 import { gql } from "apollo-server-express";
+
 const typeDefs = gql`
   type User {
     id: ID!
@@ -8,9 +8,11 @@ const typeDefs = gql`
     password: String!
     email: String!
   }
+
   type Query {
     user(id: ID!): User
     users: [User]!
   }
 `;
+
 export default typeDefs;
